@@ -1,5 +1,5 @@
 section.d-flex {
-  background: url('./imgs/sss.jpg') center/cover no-repeat;
+  background: url('./sss.jpg') center/cover no-repeat;
 }
 /* ======= Base Reset & Fonts ======= */
 body {
@@ -216,3 +216,4 @@ footer {
     max-width: 100%;
   }
 }
+
