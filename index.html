@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suhrob's Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+  <!-- Theme Toggle Button -->
+
+  <!-- HERO SECTION -->
+  <section class="d-flex align-items-center justify-content-center min-vh-100 px-3 bg-section">
+    <div class="text-center">
+      <p class="fs-5 text-secondary">Hello, I'm</p>
+      <h1 class="display-4 fw-bold text-warning">Suhrob</h1>
+      <h2 class="fs-4 mt-2 mb-3">Web/Game Designer & Producer</h2>
+      <p class="text-light mb-4">Men veb dizayn, UI/UX, hamda o‘yinlar yaratish bilan shug‘ullanaman. Portfolio orqali ishlarim bilan tanishing.</p>
+      <button onclick="startChat()" class="btn btn-warning px-4 py-2">
+        Let's Talk
+      </button>
+      <div class="d-flex justify-content-center flex-wrap gap-3 mt-4 social-icons">
+        <a href="https://t.me/yourname" class="text-warning fs-4"><i class="fab fa-telegram"></i></a>
+        <a href="https://instagram.com/yourname" class="text-warning fs-4"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/yourname" class="text-warning fs-4"><i class="fab fa-github"></i></a>
+        <a href="https://youtube.com/@yourchannel" class="text-warning fs-4"><i class="fab fa-youtube"></i></a>
+        <a href="https://pinterest.com/yourname" class="text-warning fs-4"><i class="fab fa-pinterest"></i></a>
+        <a href="https://linkedin.com/in/yourname" class="text-warning fs-4"><i class="fab fa-linkedin"></i></a>
+        <a href="https://reddit.com/user/yourname" class="text-warning fs-4"><i class="fab fa-reddit"></i></a>
+        <a href="https://twitter.com/yourname" class="text-warning fs-4"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://facebook.com/yourname" class="text-warning fs-4"><i class="fab fa-facebook"></i></a>
+        <a href="https://discord.gg/yourname" class="text-warning fs-4"><i class="fab fa-discord"></i></a>
+      </div>
+      <div class="mt-4">
+        <a href="Suhrob-Portfolio.docx" download class="btn btn-light text-dark fw-semibold">
+          Download My Portfolio
+        </a>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-5 bg-section text-center">
+    <div class="container">
+      <h2 class="text-warning fw-bold mb-3">My Services</h2>
+      <p class="text-secondary mb-4">Men taqdim etadigan xizmatlar</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <i class="fas fa-paint-brush fs-2 text-warning mb-3"></i>
+            <h3 class="fs-5 text-white">UI/UX Design</h3>
+            <p class="text-light">Zamonaviy va funksional interfeyslar yarataman.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <i class="fas fa-gamepad fs-2 text-warning mb-3"></i>
+            <h3 class="fs-5 text-white">Game Design</h3>
+            <p class="text-light">O'yin dizayni va mexanikasi ustida ishlayman.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <i class="fas fa-code fs-2 text-warning mb-3"></i>
+            <h3 class="fs-5 text-white">Web Design</h3>
+            <p class="text-light">Veb saytlar uchun UI va animatsiyalar tayyorlayman.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h2 class="text-warning fw-bold mb-3">My Projects</h2>
+      <p class="text-secondary mb-4">Yaratgan loyihalarimdan namunalar</p>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="bg-section p-3 rounded">
+            <img src="./imgs/photo_1_2025-08-06_14-26-29.jpg" alt="Dice War" class="img-fluid rounded mb-3">
+            <h3 class="fs-5">Dice War</h3>
+            <p>Multiplayer va solo rejimdagi zar o‘yini.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="bg-section p-3 rounded">
+              <img src="./imgs/d.jpg" alt="Portfolio Site" class="img-fluid rounded mb-3">
+              <h3 class="fs-5">Character Design</h3>
+              <p>Shaxsiy o`yin uchun dizaynlar </p>
+            </div>
+          </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="bg-section p-3 rounded">
+            <img src="./imgs/LDW.jpg" alt="Light & Darkness War" class="img-fluid rounded mb-3">
+            <h3 class="fs-5">Light & Darkness War</h3>
+            <p>Qahramonlar va janglar asosidagi strategik o‘yin sayti</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-5 text-center bg-section">
+    <div class="container">
+      <h2 class="text-warning fw-bold mb-3">About Me</h2>
+      <p class="text-secondary mb-4">Men haqimda qisqacha</p>
+      <p class="text-light">
+        Men Suhrob — web va game dizayner. UI/UX, animatsiya, grafik dizayn, o‘yin mexanikasi va multiplayer tizimlar bilan ishlayman. 
+        O‘yinlar va portfolio loyihalarimda kreativlik va funksionallikni birlashtiraman.
+      </p>
+    </div>
+    <div class="My-Games">
+      <h1 class="ttt">Men yoqtirgan O`yinlar</h1>
+      <div class="Games-cards">
+    
+        <div class="Card">
+          <h2>Mobile Legends Bang Bang</h2>
+          <video autoplay muted loop playsinline preload="auto">
+            <source src="./vidios/MLbb.mp4" type="video/mp4">
+          </video>
+        </div>
+    
+        <div class="Card">
+          <h2>Genshin Impact</h2>
+          <video autoplay muted loop playsinline preload="auto">
+            <source src="./vidios/G-impakt.mp4" type="video/mp4">
+          </video>
+        </div>
+    
+        <div class="Card">
+          <h2>Lords Mobile</h2>
+          <video autoplay muted loop playsinline preload="auto">
+            <source src="./vidios/L-M.mp4" type="video/mp4">
+          </video>
+        </div>
+    
+      </div>
+    </div>
+    
+    
+    
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h2 class="text-warning fw-bold mb-3">My Skills</h2>
+      <p class="text-secondary mb-4">Qanday texnologiyalar bilan ishlayman</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="bg-section p-3 rounded">
+            <h3 class="fs-5">Front-End</h3>
+            <p>HTML, CSS, Bootstrap, JavaScript, React</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-section p-3 rounded">
+            <h3 class="fs-5">Game Design</h3>
+            <p>Unity, GDevelop, UI/UX, Story Design</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-section p-3 rounded">
+            <h3 class="fs-5">Tools</h3>
+            <p>Figma, Photoshop, GitHub, Canva</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- TOOLS SECTION -->
+<section id="tools" class="py-5 text-center bg-section text-white">
+    <div class="container">
+      <h2 class="text-warning fw-bold mb-3">Tools I Use</h2>
+      <p class="text-secondary mb-4">Men foydalanadigan dasturiy ta'minotlar</p>
+      <div class="row g-4 justify-content-center">
+  
+        <!-- Blender -->
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/blender.svg" alt="Blender" width="40" height="40" class="mb-3">
+            <h3 class="fs-5 text-white">Blender</h3>
+            <p class="text-light">3D modeling, animatsiya va rendering uchun bepul platforma.</p>
+          </div>
+        </div>
+  
+        <!-- Unity -->
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/unity.svg" alt="Unity" width="40" height="40" class="mb-3">
+            <h3 class="fs-5 text-white">Unity</h3>
+            <p class="text-light">2D va 3D o'yinlar yaratish uchun keng tarqalgan dvijok.</p>
+          </div>
+        </div>
+  
+        <!-- Unreal Engine -->
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/unrealengine.svg" alt="Unreal Engine" width="40" height="40" class="mb-3">
+            <h3 class="fs-5 text-white">Unreal Engine</h3>
+            <p class="text-light">Realistik grafikalar uchun kuchli o'yin dvijogi.</p>
+          </div>
+        </div>
+  
+        <!-- 3ds Max -->
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/autodesk.svg" alt="3ds Max" width="40" height="40" class="mb-3">
+            <h3 class="fs-5 text-white">3ds Max</h3>
+            <p class="text-light">Professional 3D modeling va rendering uchun dastur.</p>
+          </div>
+        </div>
+  
+        <!-- Adobe After Effects -->
+        <div class="col-md-4">
+          <div class="bg-dark p-4 rounded">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/adobeaftereffects.svg" alt="After Effects" width="40" height="40" class="mb-3">
+            <h3 class="fs-5 text-white">After Effects</h3>
+            <p class="text-light">VFX va motion design uchun kuchli vosita.</p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-5 bg-section text-center">
+    <div class="container">
+      <h2 class="text-warning fw-bold mb-3">Contact Me</h2>
+      <p class="text-secondary mb-4">Menga bog‘lanish uchun forma</p>
+      <form id="contactForm" class="text-start mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <input type="text" placeholder="Ismingiz" class="form-control">
+        </div>
+        <div class="mb-3">
+          <input type="email" placeholder="Email" class="form-control">
+        </div>
+        <div class="mb-3">
+          <textarea rows="5" placeholder="Xabaringiz" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Yuborish</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 text-center bg-dark text-secondary">
+    <p>© 2025 Suhrob. Barcha huquqlar himoyalangan.</p>
+    <div class="mt-2">
+      <a href="https://t.me/yourname" class="text-warning mx-2">Telegram</a>
+      <a href="https://github.com/yourname" class="text-warning mx-2">GitHub</a>
+      <a href="https://instagram.com/yourname" class="text-warning mx-2">Instagram</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <!-- <script src="./script.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/simple-icons@9.14.0/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
